@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
           <span className="inline-block py-1 px-3 rounded-full bg-accent/10 text-accent text-sm font-semibold mb-6 border border-accent/20">
             Available for Hire
           </span>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 dark:text-white mb-6">
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-dark">{profile.name}</span>
           </h1>
@@ -37,7 +37,7 @@ export const Hero: React.FC = () => {
               View Projects
               <ArrowDown size={18} className="group-hover:translate-y-1 transition-transform" />
             </a>
-            
+
             <Link
               to="/resume"
               className="px-8 py-3.5 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-white font-medium border border-gray-200 dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-700 transition-all flex items-center gap-2"

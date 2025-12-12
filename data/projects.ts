@@ -7,9 +7,16 @@ export const projectGroups: ProjectGroup[] = [
     projects: [
       {
         title: "Portfolio Website",
+        description: "Modern, high-performance portfolio built with React, TypeScript",
+        tags: ["React.js", "TypeScript", "Tailwind"],
+        liveLink: "https://mayankmaurya.netlify.app",
+        image: "https://picsum.photos/seed/portfolio/600/400"
+      },
+      {
+        title: "Portfolio Website",
         description: "Modern, high-performance portfolio built with React, TypeScript, and Three.js.",
         tags: ["React.js", "TypeScript", "Tailwind", "Three.js"],
-        liveLink: "https://mayankmaurya.netlify.app",
+        liveLink: "https://mayankmaurya.vercel.app",
         image: "https://picsum.photos/seed/portfolio/600/400"
       },
       {

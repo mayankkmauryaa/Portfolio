@@ -48,13 +48,13 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleTheme }) => {
             MM<span className="text-accent">.</span>
           </span>
         </Link>
-        
+
         <div className="flex md:order-2 space-x-2 md:space-x-4 rtl:space-x-reverse items-center">
           <Link to="/resume" className="hidden sm:flex items-center gap-2 text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-accent transition-colors mr-2">
             <FileText size={18} />
             <span className="hidden lg:inline">Resume</span>
           </Link>
-          
+
           <div className="hidden sm:flex items-center gap-3 border-r border-gray-300 dark:border-gray-700 pr-4 mr-1">
             <a href={profile.social.github} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-accent dark:hover:text-accent dark:text-gray-400 transition-colors">
               <Github size={20} />
@@ -91,9 +91,8 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleTheme }) => {
         </div>
 
         <div
-          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
-            isOpen ? 'block' : 'hidden'
-          }`}
+          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isOpen ? 'block' : 'hidden'
+            }`}
           id="navbar-sticky"
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">

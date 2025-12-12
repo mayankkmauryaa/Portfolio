@@ -16,28 +16,29 @@ import { ResumeViewer } from './components/ResumeViewer';
 import { GithubStats } from './components/GithubStats';
 
 // Home Component housing all sections
-const Home = () => (
+const Home = ({ darkMode }: { darkMode: boolean }) => (
   <main className="flex flex-col gap-0">
     <section id="home">
       <Hero />
     </section>
-    <section id="skills" className="bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm">
+    <section id="skills">
       <Skills />
     </section>
     <section id="projects">
       <Projects />
     </section>
-    <section id="experience" className="bg-gray-50/50 dark:bg-slate-900/30">
+    <section id="experience" className="bg-gray-50/50 dark:bg-slate-900/30 backdrop-blur-sm">
       <Experience />
     </section>
-    <section id="certifications">
-      <Certifications />
-    </section>
-    <section id="github" className="bg-gray-50/50 dark:bg-slate-900/30">
-      <GithubStats />
+    <section id="github">
+      {/* <GithubStats /> */}
+      <GithubStats darkMode={darkMode} />
     </section>
     <section id="dsa" className=" bg-gray-50/50 dark:bg-slate-900/30 backdrop-blur-sm">
       <DSA />
+    </section>
+    <section id="certifications">
+      <Certifications />
     </section>
     <section id="contact">
       <Contact />
@@ -97,13 +98,13 @@ export default function App() {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col min-h-screen">
         <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
-        
+
         <div className="flex-grow">
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Home darkMode={darkMode} />} />
               <Route path="/resume" element={<ResumeViewer />} />
-              <Route path="*" element={<Home />} />
+              <Route path="*" element={<Home darkMode={darkMode} />} />
             </Routes>
           </AnimatePresence>
         </div>

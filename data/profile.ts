@@ -1,7 +1,7 @@
 export const profile = {
   name: "Mayank Maurya",
-  title: "Full Stack Engineer — MERN · Java DSA · Generative AI",
-  tagline: "Building polished, production-ready web apps.",
+  title: "Full Stack Engineer — MERN · DSA · Generative AI",
+  tagline: "Learning GEN-AI, Building web apps, Mastering DSA",
   email: "hpmayankmaurya@gmail.com",
   location: "Gajraula, Amroha, U.P., India",
   phone: "+918439480764",

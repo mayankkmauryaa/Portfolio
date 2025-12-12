@@ -11,7 +11,7 @@ interface StarFieldProps {
 
 function StarField({ count = 1500, mousePosition, darkMode }: StarFieldProps) {
   const ref = useRef<THREE.Points>(null);
-  
+
   // Generate random positions for stars
   const positions = useMemo(() => {
     const arr = new Float32Array(count * 3);
@@ -32,7 +32,7 @@ function StarField({ count = 1500, mousePosition, darkMode }: StarFieldProps) {
       // Parallax effect based on mouse
       const targetX = mousePosition.x * 0.5;
       const targetY = mousePosition.y * 0.5;
-      
+
       ref.current.position.x += (targetX - ref.current.position.x) * 2 * delta;
       ref.current.position.y += (targetY - ref.current.position.y) * 2 * delta;
     }

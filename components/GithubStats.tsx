@@ -1,11 +1,28 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Github } from 'lucide-react';
-import { profile } from '../data/profile';
+import React from "react";
+import { motion } from "framer-motion";
+import { Github } from "lucide-react";
+import { profile } from "../data/profile";
 
-export const GithubStats: React.FC = () => {
+interface GithubStatsProps {
+    darkMode: boolean;
+}
+
+export const GithubStats: React.FC<GithubStatsProps> = ({ darkMode }) => {
+    // Choose a GitHub card theme
+    const theme = darkMode ? "2077" : "github";
+
+    const graphTheme = darkMode ? "react-dark" : "";
+
+    const cards = [
+        `https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mayankkmauryaa&theme=${theme}&hide_border=true`,
+        `https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mayankkmauryaa&theme=${theme}&hide_border=true`,
+        `https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mayankkmauryaa&theme=${theme}&hide_border=true`,
+        `https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mayankkmauryaa&theme=${theme}&hide_border=true`
+    ];
+
     return (
         <div className="py-24 px-6 max-w-7xl mx-auto">
+
             {/* Header */}
             <div className="text-center mb-16">
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
@@ -31,7 +48,13 @@ export const GithubStats: React.FC = () => {
             <div className="flex flex-wrap justify-center gap-4 mb-12">
                 <img src="https://img.shields.io/github/followers/mayankkmauryaa?label=Followers&style=social" className="h-7" />
                 <img src="https://img.shields.io/github/stars/mayankkmauryaa?affiliations=OWNER&style=social" className="h-7" />
-                <img src="https://img.shields.io/badge/Open%20Source-Contributor-blueviolet?style=flat" className="h-7" />
+
+                {/* Dynamic badge color only where possible */}
+                <img
+                    src={`https://img.shields.io/badge/Open%20Source-Contributor-${darkMode ? "white" : "blueviolet"}?style=flat`}
+                    className="h-7"
+                />
+
                 <img src="https://komarev.com/ghpvc/?username=mayankkmauryaa&color=brightgreen" className="h-7" />
                 <img src="https://img.shields.io/badge/100%2B%20Contributions-🔥-orange?style=flat" className="h-7" />
             </div>
@@ -41,7 +64,7 @@ export const GithubStats: React.FC = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="p-6 rounded-xl shadow-sm overflow-x-auto"
+                className="p-6 overflow-x-auto mb-10"
             >
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-6 text-center flex items-center justify-center gap-2">
                     <Github size={24} /> Contribution Activity
@@ -49,20 +72,15 @@ export const GithubStats: React.FC = () => {
 
                 <div className="min-w-[800px] flex justify-center">
                     <img
-                        src="https://github-readme-activity-graph.vercel.app/graph?username=mayankkmauryaa&theme=react-dark&hide_border=true&area=true"
+                        src={`https://github-readme-activity-graph.vercel.app/graph?username=mayankkmauryaa&theme=${graphTheme}&hide_border=true&area=true`}
                         className="w-full max-w-4xl"
                     />
                 </div>
             </motion.div>
 
-            {/* 4 Equal Cards */}
+            {/* 4 Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
-                {[
-                    "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mayankkmauryaa&theme=2077",
-                    "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mayankkmauryaa&theme=2077",
-                    "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mayankkmauryaa&theme=2077",
-                    "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mayankkmauryaa&theme=2077"
-                ].map((src, idx) => (
+                {cards.map((src, idx) => (
                     <motion.div
                         key={idx}
                         initial={{ opacity: 0, x: 20 }}
@@ -75,8 +93,7 @@ export const GithubStats: React.FC = () => {
                 ))}
             </div>
 
-
-            {/* Profile Details at Top */}
+            {/* Profile Details */}
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -84,11 +101,10 @@ export const GithubStats: React.FC = () => {
                 className="rounded-xl shadow-sm overflow-hidden mb-12"
             >
                 <img
-                    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayankkmauryaa&theme=2077"
+                    src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayankkmauryaa&theme=${theme}&hide_border=true`}
                     className="w-full"
                 />
             </motion.div>
-
 
         </div>
     );

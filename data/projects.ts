@@ -10,20 +10,20 @@ export const projectGroups: ProjectGroup[] = [
         description: "Modern, high-performance portfolio built with React, TypeScript",
         tags: ["React.js", "TypeScript", "Tailwind"],
         liveLink: "https://mayankmaurya.netlify.app",
-        image: "../assests/port1.png"
+        image: "https://i.postimg.cc/nX3HW0dG/port1.png"
       },
       {
         title: "Portfolio Website",
         description: "Modern, high-performance portfolio built with React, TypeScript, and Three.js.",
         tags: ["React.js", "TypeScript", "Tailwind", "Three.js"],
         liveLink: "https://mayankmaurya.vercel.app",
-        image: "../assests/port.png"
+        image: "https://i.postimg.cc/LJxHWNy6/port.png"
       },
       {
         title: "AI Code Assistant",
         description: "Intelligent coding helper leveraging OpenAI API for real-time suggestions.",
         tags: ["React.js", "Node.js", "OpenAI API"],
-        image: "../assests/favicon.png"
+        image: "https://i.postimg.cc/9Dmm1vBq/favicon.png"
       }
     ]
   },
@@ -36,7 +36,7 @@ export const projectGroups: ProjectGroup[] = [
         description: "Centralized hub for assignment submissions and tracking during Devslane training.",
         tags: ["React.js", "Next.js", "Vercel"],
         liveLink: "https://devslane-hub.vercel.app/",
-        image: "../assests/dev.png"
+        image: "https://i.postimg.cc/LJ99vrVq/dev.png"
       }
     ]
   },
@@ -49,7 +49,7 @@ export const projectGroups: ProjectGroup[] = [
         description: "Analytical tool to predict customer churn using ML models and visualize data.",
         tags: ["Python", "Flask", "React.js", "Scikit-Learn"],
         liveLink: "https://ml-prediction-analysis-telco-custom.vercel.app/",
-        image: "../assests/ml.png"
+        image: "https://i.postimg.cc/XrsVPQ2Y/ml.png"
       }
     ]
   }

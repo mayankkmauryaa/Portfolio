@@ -12,7 +12,7 @@ export const experience: ExperienceItem[] = [
       "Built REST APIs, authentication flows and deployed apps to Vercel",
       "Focused on backend logic, testing and deployment pipelines"
     ],
-    certLink: "https://drive.google.com/file/d/1Ub2H6weFPgPkMP3wBAhosc2wNFBJ6bxF/view?usp=sharing"
+    certLink: "https://drive.google.com/file/d/1WH8cshRpb_vTbg2SybeUYRa4kSiZ-fsQ/view?usp=sharing"
   },
   {
     company: "Future Interns",
@@ -25,6 +25,6 @@ export const experience: ExperienceItem[] = [
       "Worked across frontend and backend and deployed to Netlify/Vercel",
       "Grew collaboration and code-review experience"
     ],
-    certLink: "https://drive.google.com/file/d/1e3E7mLzGtBUw4A1W6I6kgRMcBBimf8rj/view?usp=sharing"
+    certLink: "https://drive.google.com/file/d/1fUiIWSV_kKgXqQG0StxOa4OoAnl7oS1P/view?usp=sharing"
   }
 ];

@@ -2,7 +2,13 @@ import React from 'react';
 import { ExternalLink, Trophy, Flame, Code2, LineChart } from 'lucide-react';
 import { profile } from '../data/profile';
 
-export const DSA: React.FC = () => {
+interface Props {
+  darkMode: boolean;
+}
+export const DSA: React.FC<Props> = ({ darkMode }) => {
+  const leetcodeTheme = darkMode ? 'transparent' : 'unicorn';
+  const leetcodeHeatmapUrl = `https://leetcard.jacoblin.cool/mayankkmauryaa?ext=heatmap&theme=${leetcodeTheme}&v=${darkMode ? 'dark' : 'light'}`;
+
   return (
     <div className="py-24 px-6 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -63,9 +69,11 @@ export const DSA: React.FC = () => {
             <div className="absolute inset-0 bg-accent/20 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             <div className="relative overflow-hidden">
               <img
-                src="https://leetcard.jacoblin.cool/mayankkmauryaa?ext=heatmap&theme=unicorn"
+                src={leetcodeHeatmapUrl}
                 alt="LeetCode Heatmap"
-                className="w-full h-auto rounded-xl"
+                loading="lazy"
+                decoding="async"
+                className="w-full h-auto rounded-xl transition-opacity duration-300"
               />
             </div>
           </div>

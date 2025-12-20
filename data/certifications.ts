@@ -107,7 +107,7 @@ export const certifications: Certificate[] = [
     title: "Python Development with ChatGPT: Fullstack App Development",
     issuer: "Coursera",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.coursera.org/account/accomplishments/verify/QBXTHMGPIB37",
     skills: [
       "Python", "Full-Stack Development", "Generative AI", "Prompt Engineering"
     ]
@@ -118,119 +118,119 @@ export const certifications: Certificate[] = [
     title: "Gmail",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17490200?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Google Calendar",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17489830?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Google Sheets",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17489702?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Google Sheets – Advanced Topics",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17489998?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Introduction to Generative AI",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17482413?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: ["Generative AI"]
   },
   {
     title: "Introduction to Image Generation",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17482994?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Introduction to Large Language Models",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17482679?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: ["Generative AI", "LLMs"]
   },
   {
     title: "Introduction to Responsible AI",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17482585?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: ["AI", "Generative AI"]
   },
   {
     title: "Planetary Scale Earth Observation with Google Earth Engine",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17489381?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Responsible AI: Applying AI Principles",
     issuer: "Google",
     date: "Aug 2025",
-    url: "",
+    url: "https://www.skills.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17482753?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Digital Transformation with Google Cloud",
     issuer: "Google",
     date: "Mar 2025",
-    url: "https://partner.cloudskillsboost.google/public_profiles/...",
+    url: "https://partner.cloudskillsboost.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/14493933?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Exploring Data Transformation with Google Cloud",
     issuer: "Google",
     date: "Jul 2025",
-    url: "https://partner.cloudskillsboost.google/public_profiles/...",
+    url: "https://partner.cloudskillsboost.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17027435?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Infrastructure & Application Modernization",
     issuer: "Google",
     date: "Jul 2025",
-    url: "https://partner.cloudskillsboost.google/public_profiles/...",
+    url: "https://partner.cloudskillsboost.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17027590?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Innovating with Google Cloud AI",
     issuer: "Google",
     date: "Jul 2025",
-    url: "https://partner.cloudskillsboost.google/public_profiles/...",
+    url: "https://partner.cloudskillsboost.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17027540?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Prompt Design in Vertex AI",
     issuer: "Google",
     date: "Jul 2025",
-    url: "https://partner.cloudskillsboost.google/public_profiles/...",
+    url: "https://partner.cloudskillsboost.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17005861",
     skills: ["Generative AI", "Prompt Engineering", "Gemini APIs"]
   },
   {
     title: "Scaling with Google Cloud Operations",
     issuer: "Google",
     date: "Jul 2025",
-    url: "https://partner.cloudskillsboost.google/public_profiles/...",
+    url: "https://partner.cloudskillsboost.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17030757?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
   {
     title: "Trust and Security with Google Cloud",
     issuer: "Google",
     date: "Jul 2025",
-    url: "https://partner.cloudskillsboost.google/public_profiles/...",
+    url: "https://partner.cloudskillsboost.google/public_profiles/1d18146a-9ef3-4f50-b581-4b495ed8a4b1/badges/17030738?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     skills: []
   },
 
@@ -277,56 +277,56 @@ export const certifications: Certificate[] = [
     title: "Goldman Sachs – Software Engineering Simulation",
     issuer: "Goldman Sachs",
     date: "Feb 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/MBA4MnZTNFEoJZGnk/NPdeQ43o8P9HJmJzg_MBA4MnZTNFEoJZGnk_3p85ZZGCqAbKh2cMP_1739215728377_completion_certificate.pdf",
     skills: ["Cryptography", "Password Security"]
   },
   {
     title: "AWS Solutions Architecture Simulation",
     issuer: "AWS",
     date: "Feb 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_3p85ZZGCqAbKh2cMP_1740070224303_completion_certificate.pdf",
     skills: ["AWS", "Architecture", "Technical Support"]
   },
   {
     title: "Deloitte – Data Analytics Simulation",
     issuer: "Deloitte",
     date: "Mar 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_3p85ZZGCqAbKh2cMP_1743186596450_completion_certificate.pdf",
     skills: ["Data Analysis", "Modeling", "Tableau"]
   },
   {
     title: "Tata Group – ESG Simulation",
     issuer: "Tata Group",
     date: "Apr 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/N8Muuhk6XsXgMTeu2_ifobHAoMjQs9s6bKS_3p85ZZGCqAbKh2cMP_1743878722241_completion_certificate.pdf",
     skills: ["Research", "Sustainability"]
   },
   {
     title: "JPMorgan – Investment Banking Simulation",
     issuer: "JPMorgan Chase",
     date: "Apr 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ZtgA28qyexifyEdHE/YD2kY95RQxQtXxFTS_ZtgA28qyexifyEdHE_3p85ZZGCqAbKh2cMP_1744039941924_completion_certificate.pdf",
     skills: ["Client Communication", "M&A Screening"]
   },
   {
     title: "JPMorgan – Quantitative Research Simulation",
     issuer: "JPMorgan Chase",
     date: "May 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/bWqaecPDbYAwSDqJy_Sj7temL583QAYpHXD_3p85ZZGCqAbKh2cMP_1748516765112_completion_certificate.pdf",
     skills: ["Python", "Derivatives", "Statistics"]
   },
   {
     title: "Deloitte – Cyber Job Simulation",
     issuer: "Deloitte",
     date: "Jul 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_3p85ZZGCqAbKh2cMP_1751795503655_completion_certificate.pdf",
     skills: ["Web Security", "Log Inspection"]
   },
   {
     title: "Deloitte – Technology Job Simulation",
     issuer: "Deloitte",
     date: "Jul 2025",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/...pdf",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_3p85ZZGCqAbKh2cMP_1751793829961_completion_certificate.pdf",
     skills: ["Python", "Programming", "Software Development"]
   },
 

@@ -73,7 +73,7 @@ export const GithubStats: React.FC<GithubStatsProps> = ({ darkMode }) => {
                 <div className="min-w-[800px] flex justify-center">
                     <img
                         src={`https://github-readme-activity-graph.vercel.app/graph?username=mayankkmauryaa&theme=${graphTheme}&hide_border=true&area=true`}
-                        className="w-full max-w-4xl"
+                        className="w-full max-w-4xl rounded-4xl"
                     />
                 </div>
             </motion.div>
@@ -86,9 +86,9 @@ export const GithubStats: React.FC<GithubStatsProps> = ({ darkMode }) => {
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        className="rounded-xl shadow-sm overflow-hidden w-full h-[320px] flex justify-center items-center bg-slate-50 dark:bg-slate-800"
+                        className="rounded-xl shadow-sm overflow-hidden"
                     >
-                        <img src={src} className="w-full h-full object-cover" />
+                        <img src={src} className="w-full" />
                     </motion.div>
                 ))}
             </div>

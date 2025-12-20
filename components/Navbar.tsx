@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleTheme }) => {
 
           <button
             onClick={toggleTheme}
-            className="p-2 text-gray-500 rounded-lg hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700 transition-all"
+            className="p-2 text-gray-500 rounded-3xl hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700 transition-all"
             aria-label="Toggle Theme"
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -81,7 +81,7 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleTheme }) => {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-3xl md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-sticky"
             aria-expanded={isOpen}
           >
@@ -105,7 +105,23 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleTheme }) => {
                   {link.name}
                 </button>
               </li>
+
+
             ))}
+            {/* <div className="flex justify-center items-center gap-3 border-r border-gray-300 dark:border-gray-700 pr-4 mr-1">
+              <a href={profile.social.github} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-accent dark:hover:text-accent dark:text-gray-400 transition-colors">
+                <Github size={20} />
+              </a>
+              <a href={profile.social.linkedin} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-accent dark:hover:text-accent dark:text-gray-400 transition-colors">
+                <Linkedin size={20} />
+              </a>
+              <a href={profile.social.instagram} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-accent dark:hover:text-accent dark:text-gray-400 transition-colors">
+                <Instagram size={20} />
+              </a>
+              <a href={profile.social.whatsapp} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-accent dark:hover:text-accent dark:text-gray-400 transition-colors">
+                <MessageCircle size={20} />
+              </a>
+            </div> */}
           </ul>
         </div>
       </div>

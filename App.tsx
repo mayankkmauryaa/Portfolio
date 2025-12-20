@@ -34,8 +34,8 @@ const Home = ({ darkMode }: { darkMode: boolean }) => (
       {/* <GithubStats /> */}
       <GithubStats darkMode={darkMode} />
     </section>
-    <section id="dsa" className=" bg-gray-50/50 dark:bg-slate-900/30 backdrop-blur-sm">
-      <DSA />
+    <section id="dsa">
+      <DSA darkMode={darkMode} />
     </section>
     <section id="certifications">
       <Certifications />

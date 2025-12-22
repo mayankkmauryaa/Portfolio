@@ -103,6 +103,7 @@ export const Contact: React.FC = () => {
             <div>
               <label htmlFor="subject" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Subject</label>
               <select
+                id="subject"
                 name="subject"
                 className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-slate-900 border border-gray-200 dark:border-slate-700 focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all dark:text-white"
               >

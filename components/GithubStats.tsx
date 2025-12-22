@@ -46,17 +46,16 @@ export const GithubStats: React.FC<GithubStatsProps> = ({ darkMode }) => {
 
             {/* Badges */}
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-                <img src="https://img.shields.io/github/followers/mayankkmauryaa?label=Followers&style=social" className="h-7" />
-                <img src="https://img.shields.io/github/stars/mayankkmauryaa?affiliations=OWNER&style=social" className="h-7" />
+                <img src="https://img.shields.io/github/followers/mayankkmauryaa?label=Followers&style=social" alt="GitHub Followers" className="h-7" />
+                <img src="https://img.shields.io/github/stars/mayankkmauryaa?affiliations=OWNER&style=social" alt="GitHub Stars" className="h-7" />
 
                 {/* Dynamic badge color only where possible */}
                 <img
-                    src={`https://img.shields.io/badge/Open%20Source-Contributor-${darkMode ? "white" : "blueviolet"}?style=flat`}
-                    className="h-7"
+                    src={`https://img.shields.io/badge/Open%20Source-Contributor-${darkMode ? "white" : "blueviolet"}?style=flat`} alt="Open Source Contributor Badge" className="h-7"
                 />
 
-                <img src="https://komarev.com/ghpvc/?username=mayankkmauryaa&color=brightgreen" className="h-7" />
-                <img src="https://img.shields.io/badge/100%2B%20Contributions-🔥-orange?style=flat" className="h-7" />
+                <img src="https://komarev.com/ghpvc/?username=mayankkmauryaa&color=brightgreen" alt="Profile Views Count" className="h-7" />
+                <img src="https://img.shields.io/badge/100%2B%20Contributions-🔥-orange?style=flat" alt="100+ GitHub Contributions" className="h-7" />
             </div>
 
             {/* Activity Graph */}
@@ -72,7 +71,7 @@ export const GithubStats: React.FC<GithubStatsProps> = ({ darkMode }) => {
 
                 <div className="min-w-[800px] flex justify-center">
                     <img
-                        src={`https://github-readme-activity-graph.vercel.app/graph?username=mayankkmauryaa&theme=${graphTheme}&hide_border=true&area=true`}
+                        src={`https://github-readme-activity-graph.vercel.app/graph?username=mayankkmauryaa&theme=${graphTheme}&hide_border=true&area=true`} alt="GitHub contribution activity graph"
                         className="w-full max-w-4xl rounded-4xl"
                     />
                 </div>
@@ -88,7 +87,7 @@ export const GithubStats: React.FC<GithubStatsProps> = ({ darkMode }) => {
                         viewport={{ once: true }}
                         className="rounded-xl shadow-sm overflow-hidden"
                     >
-                        <img src={src} className="w-full" />
+                        <img src={src} alt={`GitHub summary card ${idx + 1}`} className="w-full" />
                     </motion.div>
                 ))}
             </div>
@@ -101,8 +100,7 @@ export const GithubStats: React.FC<GithubStatsProps> = ({ darkMode }) => {
                 className="rounded-xl shadow-sm overflow-hidden mb-12"
             >
                 <img
-                    src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayankkmauryaa&theme=${theme}&hide_border=true`}
-                    className="w-full"
+                    src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayankkmauryaa&theme=${theme}&hide_border=true`} alt="GitHub profile details card" className="w-full"
                 />
             </motion.div>
 

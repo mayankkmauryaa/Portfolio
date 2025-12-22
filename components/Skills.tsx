@@ -12,7 +12,7 @@ const SkillRow = ({ skills, reverse = false }: { skills: string[]; reverse?: boo
         {[...skills, ...skills].map((skill, index) => (
           <div
             key={`${skill}-${index}`}
-            className="flex-shrink-0 relative group/icon transition-transform hover:scale-110 duration-300"
+            className="shrink-0 relative group/icon transition-transform hover:scale-110 duration-300"
           >
             <img
               src={`https://skillicons.dev/icons?i=${skill}`}
